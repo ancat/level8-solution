@@ -9,11 +9,14 @@ chunks. For the final chunk, you can just brute force the endpoint like you
 would regularly.
 
 First chunk: (With the brute forced chunk masked out)
+
     python chunky.py 31337 1 XXX000000000
 
 Second chunk:
+
     python chunky.py 31337 2 000XXX000000
 
 Third chunk:
+
     python chunky.py 31337 3 000000XXX000
 
